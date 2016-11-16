@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/poi_list"
+    android:name="ar.edu.unsam.poiapp.PoiListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="26dp"
+    android:layout_marginRight="26dp"
+    app:layoutManager="LinearLayoutManager"
+    tools:context="ar.edu.unsam.poiapp.PoiListActivity"
+    tools:listitem="@layout/poi_list_content" />

@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgPoi"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:paddingBottom="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+                tools:context="ar.edu.unsam.poiapp.PoiDetailFragment"/>
+
+            <TextView
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/direccion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+                tools:context="ar.edu.unsam.poiapp.PoiDetailFragment"/>
+
+            <TextView
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/servicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                tools:context="ar.edu.unsam.poiapp.PoiDetailFragment"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/calificacionGeneral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:paddingBottom="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                tools:context="ar.edu.unsam.poiapp.PoiDetailFragment"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/calificacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                tools:context="ar.edu.unsam.poiapp.PoiDetailFragment"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
